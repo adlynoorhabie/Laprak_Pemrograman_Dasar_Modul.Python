@@ -1,0 +1,10 @@
+Mileage = (14)
+Surrounding_Park = (5)
+Park_Radius = (Mileage / (2 * 3.14 * Surrounding_Park))
+
+print("diketahui:")
+print("Pak Dengklek mengelilingi taman =",Surrounding_Park, "Putaran")
+print("Jarak tempuh Pak Dengklek =",Mileage, "Kilometer")
+print("")
+print("Jawaban:")
+print("Jari-jari taman yang dikelilingi adalah:", f"{Park_Radius:.2f}")

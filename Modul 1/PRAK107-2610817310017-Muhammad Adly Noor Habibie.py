@@ -1,0 +1,12 @@
+side1 = (4)
+side2 = (5)
+side3 = (7)
+land_price = (85000)
+land_around = (side1 + side2 + side3)
+
+print("Diketahui :")
+print("Panjang sisi segitiga berturut-turut adalah",side1,side2,"dan",side3)
+print("Keliling Tanah Pak Dangklek adalah",land_around)
+print("Harga tanah per meter adalah",land_price)
+print("Jawaban :")
+print("Biaya yang diperlukan Pak Dengklek adalah :",land_price * land_around)
